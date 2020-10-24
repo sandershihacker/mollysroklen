@@ -1,0 +1,119 @@
+<ul>
+  {% if site.email %}
+  <li>
+    <a
+      class="social-btn"
+      href="mailto:{{ site.email }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Email">
+      <i class="fa fa-fw fa-envelope"></i>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.twitter %}
+  <li>
+    <a
+      class="social-btn"
+      href="http://twitter.com/{{ site.twitter }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Twitter">
+      <i class="fa fa-fw fa-twitter"></i>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.facebook %}
+  <li>
+    <a
+      class="social-btn"
+      href="http://facebook.com/{{ site.facebook }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Facebook">
+      <i class="fa fa-fw fa-facebook"></i>
+    </a>
+  </li>
+  {% endif %}  
+  
+  {% if site.linkedin %}
+  <li>
+    <a
+      class="social-btn"
+      href="http://linkedin.com/in/{{ site.linkedin }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="LinkedIn">
+      <i class="fa fa-fw fa-linkedin"></i>
+    </a>
+  </li>
+  {% endif %}
+
+  
+  {% if site.instagram %}
+  <li>
+    <a 
+      class="social-btn"
+      href="http://instagram.com/{{ site.instagram }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Instagram">
+      <i class="fa fa-fw fa-instagram"></i>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.tumblr %}
+  <li>
+    <a
+      class="social-btn"
+      href="http://{{ site.tumblr }}.tumblr.com"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Tumblr">
+      <i class="fa fa-fw fa-tumblr"></i>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.pinterest %}
+  <li>
+    <a
+      class="social-btn"
+      href="http://www.pinterest.com/{{ site.pinterest }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Pinterest">
+      <i class="fa fa-fw fa-pinterest"></i>
+    </a>
+  </li>
+  {% endif %}
+  
+  {% if site.youtube %}
+  <li>
+    <a
+      class="social-btn"
+      href="https://youtube.com/channel/{{ site.youtube }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="YouTube">
+      <i class="fa fa-fw fa-youtube"></i>
+    </a>
+  </li>
+  {% endif %}
+
+  {% if site.resume %}
+  <li>
+    <a
+      class="social-btn"
+      href="{{ site.url }}/{{ site.resume }}"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Resume">
+      <i class="fa fa-fw fa-file"></i>
+    </a>
+  </li>
+  {% endif %}
+</ul>

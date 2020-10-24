@@ -1,0 +1,70 @@
+# Site
+title: Molly Roklen
+email: mollysroklen@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+        Ideator | Influencer | Connector
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://sandershi.com/mollysroklen/" # the base hostname & protocol for your site, e.g. http://example.com
+logo: logo.png                                       # Site logo
+profile-picture: profile.jpg
+resume: files/resume.pdf
+locale: en_US
+
+# Left Block Images
+background:
+  homepage: images/home.jpg                           # this image will be shown on homepage's left block
+  post-list: images/original.jpg             # this image will be shown on post list page
+  default-post: images/original.jpg   # this image will be shown when post's front matter doesn't specify any image
+
+# Jekyll
+permalink:          /:title/
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+sass:
+  sass_dir:         assets/_sass
+  style:            compressed
+
+# Google Analytics
+#google-analytics: UA-XXXXX-Y
+
+# Social Links
+# email:             email
+# google.plus:        username
+# twitter:            username
+# facebook:           username
+github:             sandershihacker
+# stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
+linkedin:           molly-roklen-99b925148
+#xing:              username
+instagram:          mollyroklen
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:              username
+#dribbble:          username
+youtube:           UCZVuClxWf6av6ZN5r9pmLrA
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+# behance:           username
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]
