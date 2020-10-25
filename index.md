@@ -3,7 +3,7 @@ layout: home
 ---
 # About Me
 
-Hi! I am **Molly Roklen**, a ideator, connector, and aspiring **entrepreneur**.
+Hi! I am **Molly Roklen**, an ideator, connector, and aspiring **entrepreneur**.
 
 My drive for continuous learning and passion for creativity
 has spurred my decision to move to Israel (the ‘Start-Up Nation’)
