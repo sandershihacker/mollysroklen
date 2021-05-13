@@ -1,3 +1,3 @@
-# Fifi's Personal Website
+# Molly's Personal Website
 
 A personal website built using Jekyll.
